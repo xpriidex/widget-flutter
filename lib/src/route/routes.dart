@@ -5,6 +5,7 @@ import 'package:witgetapp/src/avatar/avatar_page.dart';
 import 'package:witgetapp/src/card/card_screen.dart';
 import 'package:witgetapp/src/home/home_page.dart';
 import 'package:witgetapp/src/input/input_screen.dart';
+import 'package:witgetapp/src/list/list_screen.dart';
 import 'package:witgetapp/src/slider/slider_screen.dart';
 
 Map<String, WidgetBuilder> getApplicationRoutes() {
@@ -16,5 +17,6 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     'animated': (BuildContext context) => AnimatedContainerScreen(),
     'inputs': (BuildContext context) => InputScreen(),
     'slider': (BuildContext context) => SliderScreen(),
+    'list': (BuildContext context) => ListScreen(),
   };
 }
